@@ -1,0 +1,70 @@
+what is git?
+its a server. work as a version controller system.
+
+
+1. cd Desktop
+2. git clone git@github:bittechusa/SunBatch.git
+
+///////////////////////////////to keep a folder in GitHub
+3. cd sunBatch/
+4. cd Git tutorial.txt        (this isthe name of the file)
+5. ls   (to look filesysytem)
+  
+
+6. git init
+7. git add .
+8. git commit -m "add file"
+
+9. git remote add origin git@github:bittechusa/SunBatch.git
+10. git push -u origin master
+
+//////////////to get a file from GitHub
+11. cd Desktop
+12. git pull
+
+////////////////////save a file in sunbatch folder in local pc///////git commit
+13. pwd  (present working directory)
+14. ls   (we can see the saved file locally saved but not )
+15. git add . 
+16.git commit -m "add file"
+17.git config --global user.email "iffat0725307@gmail.com"
+18.git config --global user.name "saima"
+
+////////////////////git push
+19. git pull
+
+20.git push -u origin master  (recent version doesn't take only git push)
+
+21. git config --global push.default simple
+
+22. git pull
+
+23. git push
+
+/////////////////////how to give a project in GitHub
+
+24. cd GitPractice040514/              (goto project level)
+
+25.git add -A
+26.git commit 
+27. git pull
+28.git push
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
