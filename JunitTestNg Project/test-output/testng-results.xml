@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test Suite Example" duration-ms="90" started-at="2014-06-08T19:56:23Z" finished-at="2014-06-08T19:56:23Z">
+    <groups>
+      <group name="smoke">
+        <method signature="TestngExample.foysal3()[pri:0, instance:com.bit.testng.TestngExample@3e04f69a]" name="foysal3" class="com.bit.testng.TestngExample"/>
+        <method signature="TestngExample.foysal7()[pri:0, instance:com.bit.testng.TestngExample@3e04f69a]" name="foysal7" class="com.bit.testng.TestngExample"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Test Example" duration-ms="90" started-at="2014-06-08T19:56:23Z" finished-at="2014-06-08T19:56:23Z">
+      <class name="com.bit.testng.TestngExample">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bit.testng.TestngExample@3e04f69a]" name="beforeMethod" is-config="true" duration-ms="20" started-at="2014-06-08T15:56:23Z" finished-at="2014-06-08T15:56:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="foysal3()[pri:0, instance:com.bit.testng.TestngExample@3e04f69a]" name="foysal3" duration-ms="16" started-at="2014-06-08T15:56:23Z" finished-at="2014-06-08T15:56:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- foysal3 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.bit.testng.TestngExample@3e04f69a]" name="afterMethod" is-config="true" duration-ms="1" started-at="2014-06-08T15:56:23Z" finished-at="2014-06-08T15:56:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bit.testng.TestngExample@3e04f69a]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2014-06-08T15:56:23Z" finished-at="2014-06-08T15:56:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="foysal7()[pri:0, instance:com.bit.testng.TestngExample@3e04f69a]" name="foysal7" duration-ms="3" started-at="2014-06-08T15:56:23Z" finished-at="2014-06-08T15:56:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- foysal7 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.bit.testng.TestngExample@3e04f69a]" name="afterMethod" is-config="true" duration-ms="2" started-at="2014-06-08T15:56:23Z" finished-at="2014-06-08T15:56:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.bit.testng.TestngExample -->
+    </test> <!-- Test Example -->
+  </suite> <!-- Test Suite Example -->
+</testng-results>
