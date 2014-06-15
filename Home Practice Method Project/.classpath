@@ -2,12 +2,6 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre7"/>
-<<<<<<< HEAD
 	<classpathentry kind="lib" path="C:/Users/Home/Downloads/selenium-server-standalone-2.40.0(2).jar"/>
-=======
-	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
-	<classpathentry kind="lib" path="C:/Users/HimeL/Downloads/selenium-server-standalone-2.41.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/HimeL/Downloads/junit-4.11-sources.jar"/>
->>>>>>> c0021558dcd206bf7303d5adc389e199c080b725
 	<classpathentry kind="output" path="bin"/>
 </classpath>
