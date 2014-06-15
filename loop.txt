@@ -1,0 +1,49 @@
+import org.junit.After;
+import org.junit.Before;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+
+public class BaseTest 
+{
+	FirefoxDriver dr=new FirefoxDriver();
+	@Before
+	public void start()
+	{
+		dr.get("http://www.bluefly.com");
+		
+	}
+	@After
+	public void end() throws Throwable
+	{
+		Thread.sleep(3000);
+		dr.quit();
+		
+	}
+
+}
+
+
+import java.util.List;
+
+import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
+
+public class SmokeTest extends BaseTest
+{
+	@Test
+	public void test() throws Throwable
+	{
+		dr.findElement(By.xpath("//a[text()='Women']")).click();
+		List<WebElement> a=dr.findElements(By.xpath("//div[@id='departmentCrossSellContainer']//img"));
+		int s=a.size();
+		for(int i=2;i<=s;i++)
+		{
+			dr.findElement(By.xpath(".//*[@id='departmentCrossSellContainer']/div["+i+"]/div[1]/a/img")).click();
+			Thread.sleep(2000);
+			dr.navigate().back();
+		}
+	}
+
+}

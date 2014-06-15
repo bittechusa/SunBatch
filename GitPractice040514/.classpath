@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
+<<<<<<< HEAD
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre7"/>
+=======
+	<classpathentry kind="lib" path="C:/Selenium/selenium-server-standalone-2.37.0.jar"/>
+>>>>>>> b8e9c72f3ee0b984553d4a6558272d4f4953a8c7
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="lib" path="C:/Users/md/Downloads/selenium-server-standalone-2.41.0 (2).jar"/>
 	<classpathentry kind="output" path="bin"/>

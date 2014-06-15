@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd">
+<suite name="Test Suite Example" verbose="1">
+  <test name="Test Example">
+  <groups>
+    <run>
+      <include name="smoke"/>
+    </run>
+  </groups>
+    <classes>
+      <class name="com.bit.testng.TestngExample"/>
+   </classes>
+ </test>
+</suite>
