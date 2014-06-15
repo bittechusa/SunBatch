@@ -1,0 +1,42 @@
+package com.bit.test;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.Select;
+
+public class Shared
+{
+	public void mouseOver(FirefoxDriver fdr,WebElement fl)
+	{
+		Actions a=new Actions(fdr);
+		a.moveToElement(fl);
+		
+	}
+	
+	public void smartHit(WebElement s)
+	{
+		s.click();
+		
+	}
+	
+	public void back(FirefoxDriver mh)
+	{
+		mh.navigate().back();
+		
+	}
+	public void type(WebElement ll,String m)
+	{
+		ll.sendKeys(m);
+	}
+	public void choose(WebElement foy,String j)
+	{
+		new Select(foy).selectByVisibleText(j);;
+		
+		
+	}
+	
+	
+	
+
+}

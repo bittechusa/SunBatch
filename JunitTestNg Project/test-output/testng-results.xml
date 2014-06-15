@@ -1,41 +1,133 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="9" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="Test Suite Example" duration-ms="90" started-at="2014-06-08T19:56:23Z" finished-at="2014-06-08T19:56:23Z">
+  <suite name="Default suite" duration-ms="110" started-at="2014-06-09T00:59:28Z" finished-at="2014-06-09T00:59:28Z">
     <groups>
       <group name="smoke">
-        <method signature="TestngExample.foysal3()[pri:0, instance:com.bit.testng.TestngExample@3e04f69a]" name="foysal3" class="com.bit.testng.TestngExample"/>
-        <method signature="TestngExample.foysal7()[pri:0, instance:com.bit.testng.TestngExample@3e04f69a]" name="foysal7" class="com.bit.testng.TestngExample"/>
+        <method signature="TestngExample.foysal3()[pri:0, instance:com.bit.testng.TestngExample@6dd6c962]" name="foysal3" class="com.bit.testng.TestngExample"/>
+        <method signature="TestngExample.foysal7()[pri:0, instance:com.bit.testng.TestngExample@6dd6c962]" name="foysal7" class="com.bit.testng.TestngExample"/>
       </group> <!-- smoke -->
     </groups>
-    <test name="Test Example" duration-ms="90" started-at="2014-06-08T19:56:23Z" finished-at="2014-06-08T19:56:23Z">
+    <test name="Default test" duration-ms="110" started-at="2014-06-09T00:59:28Z" finished-at="2014-06-09T00:59:28Z">
       <class name="com.bit.testng.TestngExample">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bit.testng.TestngExample@3e04f69a]" name="beforeMethod" is-config="true" duration-ms="20" started-at="2014-06-08T15:56:23Z" finished-at="2014-06-08T15:56:23Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.bit.testng.TestngExample@6dd6c962]" name="beforeClass" is-config="true" duration-ms="10" started-at="2014-06-08T20:59:28Z" finished-at="2014-06-08T20:59:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="foysal10()[pri:0, instance:com.bit.testng.TestngExample@6dd6c962]" name="foysal10" duration-ms="10" started-at="2014-06-08T20:59:28Z" finished-at="2014-06-08T20:59:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- foysal10 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bit.testng.TestngExample@6dd6c962]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2014-06-08T20:59:28Z" finished-at="2014-06-08T20:59:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="foysal3()[pri:0, instance:com.bit.testng.TestngExample@3e04f69a]" name="foysal3" duration-ms="16" started-at="2014-06-08T15:56:23Z" finished-at="2014-06-08T15:56:23Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.bit.testng.TestngExample@6dd6c962]" name="afterMethod" is-config="true" duration-ms="10" started-at="2014-06-08T20:59:28Z" finished-at="2014-06-08T20:59:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bit.testng.TestngExample@6dd6c962]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2014-06-08T20:59:28Z" finished-at="2014-06-08T20:59:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.bit.testng.TestngExample@6dd6c962]" name="afterMethod" is-config="true" duration-ms="0" started-at="2014-06-08T20:59:28Z" finished-at="2014-06-08T20:59:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="foysal3()[pri:0, instance:com.bit.testng.TestngExample@6dd6c962]" name="foysal3" duration-ms="0" started-at="2014-06-08T20:59:28Z" finished-at="2014-06-08T20:59:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- foysal3 -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.bit.testng.TestngExample@3e04f69a]" name="afterMethod" is-config="true" duration-ms="1" started-at="2014-06-08T15:56:23Z" finished-at="2014-06-08T15:56:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bit.testng.TestngExample@3e04f69a]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2014-06-08T15:56:23Z" finished-at="2014-06-08T15:56:23Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bit.testng.TestngExample@6dd6c962]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2014-06-08T20:59:28Z" finished-at="2014-06-08T20:59:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="foysal7()[pri:0, instance:com.bit.testng.TestngExample@3e04f69a]" name="foysal7" duration-ms="3" started-at="2014-06-08T15:56:23Z" finished-at="2014-06-08T15:56:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- foysal7 -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.bit.testng.TestngExample@3e04f69a]" name="afterMethod" is-config="true" duration-ms="2" started-at="2014-06-08T15:56:23Z" finished-at="2014-06-08T15:56:23Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.bit.testng.TestngExample@6dd6c962]" name="afterMethod" is-config="true" duration-ms="0" started-at="2014-06-08T20:59:28Z" finished-at="2014-06-08T20:59:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="foysal4()[pri:0, instance:com.bit.testng.TestngExample@6dd6c962]" name="foysal4" duration-ms="0" started-at="2014-06-08T20:59:28Z" finished-at="2014-06-08T20:59:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- foysal4 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bit.testng.TestngExample@6dd6c962]" name="beforeMethod" is-config="true" duration-ms="10" started-at="2014-06-08T20:59:28Z" finished-at="2014-06-08T20:59:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="foysal5()[pri:0, instance:com.bit.testng.TestngExample@6dd6c962]" name="foysal5" duration-ms="10" started-at="2014-06-08T20:59:28Z" finished-at="2014-06-08T20:59:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- foysal5 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.bit.testng.TestngExample@6dd6c962]" name="afterMethod" is-config="true" duration-ms="0" started-at="2014-06-08T20:59:28Z" finished-at="2014-06-08T20:59:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bit.testng.TestngExample@6dd6c962]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2014-06-08T20:59:28Z" finished-at="2014-06-08T20:59:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bit.testng.TestngExample@6dd6c962]" name="beforeMethod" is-config="true" duration-ms="10" started-at="2014-06-08T20:59:28Z" finished-at="2014-06-08T20:59:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.bit.testng.TestngExample@6dd6c962]" name="afterMethod" is-config="true" duration-ms="0" started-at="2014-06-08T20:59:28Z" finished-at="2014-06-08T20:59:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="foysal6()[pri:0, instance:com.bit.testng.TestngExample@6dd6c962]" name="foysal6" duration-ms="0" started-at="2014-06-08T20:59:28Z" finished-at="2014-06-08T20:59:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- foysal6 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bit.testng.TestngExample@6dd6c962]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2014-06-08T20:59:28Z" finished-at="2014-06-08T20:59:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="foysal8()[pri:0, instance:com.bit.testng.TestngExample@6dd6c962]" name="foysal8" duration-ms="0" started-at="2014-06-08T20:59:28Z" finished-at="2014-06-08T20:59:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- foysal8 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.bit.testng.TestngExample@6dd6c962]" name="afterMethod" is-config="true" duration-ms="0" started-at="2014-06-08T20:59:28Z" finished-at="2014-06-08T20:59:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="foysal7()[pri:0, instance:com.bit.testng.TestngExample@6dd6c962]" name="foysal7" duration-ms="0" started-at="2014-06-08T20:59:28Z" finished-at="2014-06-08T20:59:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- foysal7 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.bit.testng.TestngExample@6dd6c962]" name="afterMethod" is-config="true" duration-ms="0" started-at="2014-06-08T20:59:28Z" finished-at="2014-06-08T20:59:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="foysal2()[pri:0, instance:com.bit.testng.TestngExample@6dd6c962]" name="foysal2" duration-ms="0" started-at="2014-06-08T20:59:28Z" finished-at="2014-06-08T20:59:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- foysal2 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.bit.testng.TestngExample@6dd6c962]" name="afterMethod" is-config="true" duration-ms="0" started-at="2014-06-08T20:59:28Z" finished-at="2014-06-08T20:59:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.bit.testng.TestngExample@6dd6c962]" name="afterMethod" is-config="true" duration-ms="0" started-at="2014-06-08T20:59:28Z" finished-at="2014-06-08T20:59:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.bit.testng.TestngExample@6dd6c962]" name="afterClass" is-config="true" duration-ms="10" started-at="2014-06-08T20:59:28Z" finished-at="2014-06-08T20:59:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="foysal9()[pri:0, instance:com.bit.testng.TestngExample@6dd6c962]" name="foysal9" duration-ms="0" started-at="2014-06-08T20:59:28Z" finished-at="2014-06-08T20:59:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- foysal9 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bit.testng.TestngExample@6dd6c962]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2014-06-08T20:59:28Z" finished-at="2014-06-08T20:59:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bit.testng.TestngExample@6dd6c962]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2014-06-08T20:59:28Z" finished-at="2014-06-08T20:59:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
       </class> <!-- com.bit.testng.TestngExample -->
-    </test> <!-- Test Example -->
-  </suite> <!-- Test Suite Example -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
