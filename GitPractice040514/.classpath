@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="C:/Selenium/selenium-server-standalone-2.37.0.jar"/>
+<<<<<<< HEAD
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre7"/>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+	<classpathentry kind="lib" path="C:/Users/Home/Downloads/selenium-server-standalone-2.40.0(2).jar"/>
+=======
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="C:/Users/HimeL/Downloads/selenium-server-standalone-2.41.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HimeL/Downloads/junit-4.11-sources.jar"/>
+>>>>>>> c0021558dcd206bf7303d5adc389e199c080b725
+>>>>>>> 268903e75bc505c437eedf860c028b8e25f9a6dc
+=======
+	<classpathentry kind="lib" path="C:/Selenium/selenium-server-standalone-2.37.0.jar"/>
+>>>>>>> b8e9c72f3ee0b984553d4a6558272d4f4953a8c7
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+<<<<<<< HEAD
+	<classpathentry kind="lib" path="C:/Users/md/Downloads/selenium-server-standalone-2.41.0 (2).jar"/>
+=======
+>>>>>>> 9e5605d846bc0f26b3d82b4325c53ed556fb8867
+>>>>>>> 268903e75bc505c437eedf860c028b8e25f9a6dc
 	<classpathentry kind="output" path="bin"/>
 </classpath>
