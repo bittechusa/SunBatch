@@ -10,17 +10,26 @@ import org.openqa.selenium.By;
 
 public class PurchaseTest extends BaseTest
 {
+	Properties mp = new Properties();
+	
 	
 
 	@Test
 	public void purchase() throws IOException
 	{
+		FileInputStream st=new FileInputStream("config.properties");
+		mp.load(st);
+
 		
 		driver.get(mp.getProperty("url"));
 	}
 	@Test
 	public void signup() throws IOException, Exception
 	{
+FileInputStream st=new FileInputStream("config.properties");
+		
+		mp.load(st);
+
 		driver.get(mp.getProperty("fburl"));
 		driver.findElement(By.id("u_0_1")).sendKeys(mp.getProperty("fname"));
 		Thread.sleep(2000);

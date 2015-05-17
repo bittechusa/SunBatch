@@ -14,12 +14,11 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 public class BaseTest 
 {
 	public WebDriver driver; 
-	Properties mp = new Properties();
+	
 	@Before
 	public void browserOpen() throws IOException, IOException
 	{
 		
-		mp.load(new FileInputStream("config.properties"));
 		if(System.getProperty("Browser").equals("IE"))
 		{
 			System.setProperty("webdriver.ie.driver", "C:/driver/IEDriverServer.exe");
